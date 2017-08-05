@@ -20,6 +20,10 @@
 
 _Coming Soon..._
 
+## Related
+
+- [share-this](https://github.com/MaxArt2501/share-this) - API for this chrome extension
+
 ## Thanks To
 
 [MaxArt2501](https://github.com/MaxArt2501) for creating [share-this](https://github.com/MaxArt2501/share-this) project on which this chrome extension is built upon.
