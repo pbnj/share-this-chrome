@@ -4,7 +4,7 @@
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 
-## Demo
+## Demo 🎉
 
 ![share-this chrome extension demo](demo/share-this.gif)
 
@@ -24,6 +24,6 @@ _Coming Soon..._
 
 - [share-this](https://github.com/MaxArt2501/share-this) - API for this chrome extension
 
-## Thanks To
+## Speical Thanks To 🙌
 
 [MaxArt2501](https://github.com/MaxArt2501) for creating [share-this](https://github.com/MaxArt2501/share-this) project on which this chrome extension is built upon.
