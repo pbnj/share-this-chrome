@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Share This",
+  "version": "0.0.1",
+  "description": "Medium-like text-selection sharing chrome extension, based on share-this JS module.",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "css": ["share-this.css"],
+      "js": ["bundle.js"]
+    }
+  ],
+  "homepage_url": "https://github.com/petermbenjamin/share-this-chrome"
+}

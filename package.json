@@ -1,0 +1,43 @@
+{
+  "name": "share-this-chrome",
+  "version": "0.0.1",
+  "description": "Medium-like text-selection sharing Chrome extension, built using share-this.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf ./dist",
+    "copy:style": "cp src/share-this.css dist/",
+    "copy:manifest": "cp src/manifest.json dist/",
+    "copy:all": "npm run copy:style && npm run copy:manifest",
+    "build": "npm run clean && webpack && npm run copy:all",
+    "security": "snyk test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petermbenjamin/share-this-chrome.git"
+  },
+  "keywords": [
+    "chrome",
+    "chrome-extension",
+    "share-this",
+    "share",
+    "browser-extension",
+    "extension"
+  ],
+  "author": "Peter Benjamin <PeterMBenjamin@gmail.com> (https://petermbenjamin.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petermbenjamin/share-this-chrome/issues"
+  },
+  "homepage": "https://github.com/petermbenjamin/share-this-chrome#readme",
+  "dependencies": {
+    "share-this": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0",
+    "rimraf": "^2.6.1",
+    "snyk": "^1.38.1",
+    "webpack": "^3.4.1"
+  }
+}
