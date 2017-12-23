@@ -1,5 +1,7 @@
 # share-this-chrome
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/petermbenjamin/share-this-chrome.svg)](https://greenkeeper.io/)
+
 > 🌈 Medium-like text-selection sharing Chrome extension.
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
